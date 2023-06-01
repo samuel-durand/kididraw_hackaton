@@ -11,15 +11,15 @@
 
 <body>
     <?php
-    //require_once("header.html");
+    //require_once "header.html";
     ?>
     <main>
         <h1>Desssin pas à pas</h1>
         <div>
-            <a href="">PAYSAGES</a>
+            <a href="src/php/th-paysages.php">PAYSAGES</a>
             <a href="" id="rectangle">PERSONNAGES</a>
-            <a href="">ANIMAUX
-        </div></a>
+            <a href="">ANIMAUX</a>
+        </div>
         </div>
         <div id="ligne2">
             <a href="">SPORTS</a>
