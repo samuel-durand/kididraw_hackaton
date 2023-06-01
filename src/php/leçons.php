@@ -31,7 +31,7 @@
       </div>
     </div>
     <div class="button-container">
-        <button>Mon bouton</button>
+        <button id="button-container">regarder</button>
     </div>
 
     <div class="main">
@@ -49,7 +49,7 @@
 
     </div>
     <div class="button-container">
-        <button>Mon bouton</button>
+    <button id="button-container">regarder</button>
     </div>
 
 
@@ -68,7 +68,7 @@
 
     </div>
     <div class="button-container">
-        <button>Mon bouton</button>
+    <button id="button-container">regarder</button>
     </div>
 
 
@@ -87,7 +87,7 @@
 
     </div>
     <div class="button-container">
-        <button>Mon bouton</button>
+    <button id="button-container">regarder</button>
     </div>
 
     <div class="main">
@@ -105,7 +105,7 @@
 
     </div>
     <div class="button-container">
-        <button>Mon bouton</button>
+    <button id="button-container">regarder</button>
     </div>
 
 
