@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto';
+  background-color: #fc5555;
+}
+header{
+  background-color: #252525;
+}
+
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1% 1%;
+}
+
+.menu-container{
+  width: 30%;
+}
+
+.logo-container{
+  width: 40%;
+}
+
+.help-container{
+  width: 5%;
+
+}
+
+
+/* Le menu latérale */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: #086295;
+    border-radius: 20px;
+    padding-top: 60px;
+    transition: left 0.5s ease;
+  }
+  
+  /* Les liens du menu latérale*/
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fffdfd;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #fc5555;
+  }
+  
+  .sidenav ul {
+    list-style-type: none;
+  }
+  
+  /* Active class */
+  .sidenav.active {
+    left: 0;
+  }
+  
+  /* Close btn */
+  .sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  img{
+    width: 50px;
+    height: 50px;
+ 
+  }
+
+  .logo{
+    width: 250px;
+    height: 70px;
+    
+  }
+
+   /* Positionnez le formulaire de Popup */
+   .open_help_form {
+    position: relative;
+    text-align: center;
+  }
+
+   /* Masquez le formulaire de Popup */
+   .form-popup {
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 1%;
+    transform: translate(-45%, 5%);
+    z-index: 9;
+  }
+
+  /* Design du conteneur de la forme */
+  .help_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    padding: 3% 3%;
+    background-color: #086295;
+    border-radius: 20px;
+  }
+
+  .help_form img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .help_form p, label{
+    font-size: 14px;
+    padding: 1% 3%;
+    margin: 2%;
+    color: white;
+  }
+
+  .help_form input{
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.224);
+    width: 150px;
+    height: 25px;
+    margin: 3%;
+    border: none;
+  }
+
+  /* Design des boutons d'envoi et de fermeture */
+  .help_form .btn_send, .btn_cancel {
+    background-color:#ffff;
+    color: #000000;
+    padding: 2% 2%;
+    margin: 3% ;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.604);
+    cursor: pointer;
+    width: 100px;
+  }
+
+  
+  /* Les effets pour les boutons */
+  .help_form .btn_send:hover,
+  .btn_cancel:hover {
+    opacity: 1;
+    background-color: #fc5555;
+  }
+  
