@@ -18,11 +18,11 @@ function closeNav() {
   sidenav.classList.remove("active");
 }
 
-//Bouton d'aide
+//Ouverture du formulaire d'aide
 function openForm() {
   document.getElementById("popupform").style.display = "block";
 }
-
+// Fermeture du formulaire d'aide
 function closeForm() {
   document.getElementById("popupform").style.display = "none";
 }

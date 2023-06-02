@@ -4,8 +4,9 @@
 
         <div id="mySidenav" class="sidenav">
             <a id="closeBtn" href="#" class="close">x</a>
+
             <ul>
-                <li><a href="accueil.php">Accueil</a></li>
+                <li><a href="index.php">Accueil</a></li>
                 <li><a href="entrainement.php">Entraînement</a></li>
                 <li><a href="dessin_pas_a_pas.php">Dessins pas à pas</a></li>
                 <li><a href="enquete.php">Enquête</a></li>
