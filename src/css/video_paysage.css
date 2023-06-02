@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Roboto;
+    background-image: url("../asset/wallpaperbetter.jpg");
+    background-repeat: no-repeat;
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -36,6 +48,7 @@ main{
 
 main h1 {
     margin: 2%;
+    color: #FF5B5B;
 }
 
 #titre {
@@ -62,4 +75,14 @@ main h1 {
 
 #titre img:hover {
     border: white 2px solid;
+}
+
+main h2 {
+    color: #0074b6;
+    font-style: italic;
+}
+
+#download:hover{
+    background-color: #0074b6;
+    transition: 0.5s;
 }
