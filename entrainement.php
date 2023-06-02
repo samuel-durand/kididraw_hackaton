@@ -31,13 +31,13 @@
     <div class="box">
         <h1>lecons</h1>
         <div>
-        <a href="#">Lien lecons</a>
+        <a href="leçon.php">Lien lecons</a>
         </div>
     </div>
 
     <div class="box">
         <h1>JEUX</h1>
-        <a href="#">Lien jeux</a>
+        <a href="entrainement_choix.php">Lien jeux</a>
     </div>
 </section>
 

@@ -14,7 +14,7 @@
 
 <div class="bull-choice">
     <div class="dot-1">
-    <h1>les proportions</h1>
+        <a href="leçon.php">les proportions</a>
     </div>
     <div class="rectangle">
         <h1>les valeurs</h1>
@@ -30,7 +30,7 @@
             <h1>les directions</h1>
         </div>
         <div class="dot-2">
-        <h1>les positions</h1>
+            <h1>les positions</h1>
         </div>
     </div>
     
