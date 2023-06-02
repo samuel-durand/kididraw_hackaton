@@ -30,6 +30,7 @@ main{
     width: 250px;
     height: 250px;
     background-color: #fd5555;
+    transition-duration: 0.2s;
 }
 
 .second_container{
@@ -54,6 +55,7 @@ main{
     width: 200px;
     height: 80px;
     background-color: #0073b5;
+    transition-duration: 0.2s; 
 }
 
 .third_container{
