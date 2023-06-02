@@ -1,0 +1,65 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#iframe {
+    width: 50%;
+    margin: 2%;
+}
+
+#dessin {
+    width: 12%;
+    border: 2px solid black;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin: 2%;
+    border-radius: 10px;
+    border-style: dashed;
+}
+
+#download {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: #FF5B5B;
+    width: 50%;
+    display: flex;
+    border-radius: 5px;
+    text-align: center;
+    margin: 4%;
+    height: 40px;
+}
+
+main h1 {
+    margin: 2%;
+}
+
+#titre {
+    display: flex;
+    width: 100%;
+}
+
+#titre div {
+    width: 37%;
+}
+#titre a {
+    text-align: center;
+    margin: 35%;
+    width: 100%;
+}
+
+#titre img {
+    width: 4%;
+}
+
+#image {
+    padding: 2%;
+}
+
+#titre img:hover {
+    border: white 2px solid;
+}
