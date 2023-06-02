@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('../asset/walp.jpg');
+    font-family:'Roboto' ;
+}
+
+.avatar-section {
+    width: 100%;
+}
+
+.avatar-section article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.avatar-section article h1{
+    text-align: center;
+    font-size: 25px;
+    margin: 2%;
+    color: white;
+    
+}
+
+.container-icons{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.container-icons div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 1px none;
+    background-color: #0073b5;
+    box-shadow: 0 0 5px 0 rgba(255, 253, 253, 0.439);
+}
+
+.container-icons div img{
+   width: 65px;
+   height: 65px;
+   border-radius: 50%;
+   object-fit: contain;
+   padding: 0 auto;
+}
+
+.container-icons div img:hover{
+    width:  100px;
+    height: 100px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.avatar-section article form{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 1px none;
+    border-radius: 20px;
+    background-color: #0073b5;
+    box-shadow: 0 0 5px 0 rgba(255, 253, 253, 0.439) ;
+    margin: 3%;
+}
+.avatar-section article form label{
+    color: black;
+    padding: 5%;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    border: 1px none;
+}
+
+.pseudo{
+    width: 180px;
+    height: 30px;
+    margin: 5%; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgba(155, 143, 143, 0.692);
+}
+
+.start{
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 5%;
+}
+
+.start:hover{
+    color: white;
+    background-color: #0073b5;
+    box-shadow: 0 0 15px 0 rgba(91, 88, 88, 0.612);
+    transition: 0.2s;
+    cursor: pointer;
+}
