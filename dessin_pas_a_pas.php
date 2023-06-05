@@ -19,7 +19,7 @@
         <h1>Desssin pas à pas</h1>
         <div>
             <a href="th-paysages.php">PAYSAGES</a>
-            <a href="" id="rectangle">PERSONNAGES</a>
+            <a href="th-personnages" id="rectangle">PERSONNAGES</a>
             <a href="">ANIMAUX</a>
         </div>
         </div>
